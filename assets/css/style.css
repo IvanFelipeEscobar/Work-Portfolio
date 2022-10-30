@@ -1,0 +1,48 @@
+body { 
+    background-color: rgb(3, 192, 41);
+}
+header {
+    
+    background-color: rgb(0, 78, 106);
+    border: 2px solid #ef1313;
+}
+header img {
+    padding: 22px
+}
+
+.title {
+    color:aliceblue;
+    font-weight: 600;
+    margin-left: 350px;
+    ;
+}
+
+a {
+    color:aliceblue
+}
+
+main {
+    list-style: none;
+}
+h2 {
+    background-color: rgb(0, 78, 106);
+    color: aliceblue;
+    border: 2px solid #ef1313;
+    padding: 22px;
+}
+
+.pp {
+    height: 100px;
+    width: 100px;
+}
+
+ #project1 {
+ 
+    width: 200px;
+    height: 200px;
+ }
+ #project2 {
+    width:100px;
+    height:100px;
+
+ }
