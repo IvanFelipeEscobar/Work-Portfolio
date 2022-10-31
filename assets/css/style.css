@@ -2,28 +2,30 @@
 
 
 body { 
-   display: flex;
-   flex-direction: column;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: antiquewhite;
 }
 
-header {
-    width: 100%;
-}
 header, h2 {
     color: antiquewhite;
     background-color: rgb(21, 86, 142);
 }
 
+header {
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: center;
 
+}
+
+.pp {
+    margin: 25px;
+}
 
 .title {
-    margin-top: 75px;
-    padding-bottom: 40px;
-    padding-left: 40px;
     letter-spacing: 10px;
     font-size: 55px;
+    margin-top: 54px;
     
 }
 
@@ -42,52 +44,55 @@ nav a {
     text-decoration: none;
 }
 
-.pp {
-    float:left;
-    padding: 42px;
-}
 
 h2 {
     padding: 15px;
     padding-left: 50px;
     font-size: 40px;
 }
+
 p {
     padding: 10px;
     text-align: center;
 }
-h3 {
-    padding-left: 170px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-flex;
+.p1 {
+    display: flex;
+    justify-content: center;
+
 }
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
 main img {
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
     padding: 10px;
-    flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+    margin: 22px;
 }
 
-.firstproject img {
-    max-height: 750px;
-    max-width: 750px;
+#project1 {
+    width: 350px;
+    height: 350px;
 }
-.otherproject img {
-    max-height: 300px;
-    max-width: 300px;
+
+#p2, #p3, #p4, #p5 {
+    width: 250px;
+    height: 250px;
 }
-.firstproject, .otherproject {
-    flex: 4;
-    padding: 20px;
+
+.contact {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+
 
 footer {
     text-align: center;
