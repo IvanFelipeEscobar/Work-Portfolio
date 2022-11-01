@@ -96,6 +96,7 @@ main img {
 .contact {
     display: flex;
     padding-bottom: 20px;
+    padding-top: 15px;
     justify-content: space-around;
     align-items: center;
 }
