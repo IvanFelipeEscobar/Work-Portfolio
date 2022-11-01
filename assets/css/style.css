@@ -53,17 +53,23 @@ h2 {
 
 p {
     padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
 }
 .p1 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 .work {
+    height: 360px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -82,7 +88,7 @@ main img {
     height: 350px;
 }
 
-#p2, #p3, #p4, #p5 {
+#p2, #p3, #p4 {
     width: 250px;
     height: 250px;
 }
@@ -91,9 +97,13 @@ main img {
     display: flex;
     padding-bottom: 20px;
     justify-content: space-around;
+    align-items: center;
 }
 
-
+h3 a {
+    color: #000;
+    text-decoration: none;
+}
 footer {
     text-align: center;
 }
