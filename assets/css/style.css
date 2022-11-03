@@ -97,7 +97,7 @@ main img {
     height: 250px;
 }
 img:hover{
-    background-color: aquamarine;
+    background-color: rgb(21, 86, 142);
 }
 .contact {
     display: flex;
