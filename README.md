@@ -7,5 +7,8 @@ This site is a work portfolio for Ivan F. Escobar, it contains an about me secti
 ## Usage
 
 The Navigational bar on the top right of the page will take you to the different sections of the page
+![Website screenshot](./assets/images/siteScreenshot.png)
 
 [Link to Deployed Site](https://ivanfelipeescobar.github.io/Work-Portfolio/)
+
+
